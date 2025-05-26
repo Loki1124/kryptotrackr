@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#7B2CBF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 1. Banner Image -->
+
+        <!-- 3. Crypto Highlights Row (Swipeable) -->
+
+        <ImageView
+            android:id="@+id/bannerImage"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_corners"
+            android:scaleType="fitXY"
+            android:src="@drawable/a1" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <!-- Bitcoin Card -->
+                <LinearLayout
+                    android:id="@+id/bitcoinCard"
+                    android:orientation="vertical"
+                    android:tag="Bitcoin|BTC|$62,000|-4.3%"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/img_1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:text="Bitcoin"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <!-- Display current price -->
+                    <TextView
+                        android:text="$62,000"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Ethereum Card -->
+                <LinearLayout
+                    android:id="@+id/ethereumCard"
+                    android:orientation="vertical"
+                    android:tag="Ethereum|ETH|$3,000|-2.1%"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/img_2"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:text="Ethereum"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <!-- Display current price -->
+                    <TextView
+                        android:text="$3,000"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Litecoin Card -->
+                <LinearLayout
+                    android:id="@+id/litecoinCard"
+                    android:orientation="vertical"
+                    android:tag="Litecoin|LTC|$150|-1.5%"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/img_3"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:text="Litecoin"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <!-- Display current price -->
+                    <TextView
+                        android:text="$150"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Cardano Card -->
+                <LinearLayout
+                    android:id="@+id/cardanoCard"
+                    android:orientation="vertical"
+                    android:tag="Cardano|ADA|$1.50|+3.2%"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/img_4"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:text="Cardano"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <!-- Display current price -->
+                    <TextView
+                        android:text="$1.50"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Polkadot Card -->
+                <LinearLayout
+                    android:id="@+id/polkadotCard"
+                    android:orientation="vertical"
+                    android:tag="Polkadot|DOT|$30|+7.8%"
+                    android:padding="10dp"
+                    android:background="@drawable/rounded_card"
+                    android:layout_marginEnd="8dp"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/img_5"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp" />
+
+                    <TextView
+                        android:text="Polkadot"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <!-- Display current price -->
+                    <TextView
+                        android:text="$30"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Add more crypto cards here if needed -->
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- 4. Tab Buttons -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="8dp">
+
+            <LinearLayout
+                android:id="@+id/tabGainers"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tabGainersText"
+                    android:text="TOP GAINERS"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tabLosers"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tabLosersText"
+                    android:text="TOP LOSERS"
+                    android:textColor="#AAAAAA"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 5. Gainers List -->
+        <LinearLayout
+            android:id="@+id/gainersContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+        </LinearLayout>
+
+        <!-- 6. Losers List -->
+        <LinearLayout
+            android:id="@+id/losersContainer"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

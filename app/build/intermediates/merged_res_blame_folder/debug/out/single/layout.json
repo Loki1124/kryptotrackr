@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "zertex.kryptoapp-mergeDebugResources-47:/layout/fragment_market.xml",
+        "source": "zertex.kryptoapp-main-50:/layout/fragment_market.xml"
+    },
+    {
+        "merged": "zertex.kryptoapp-mergeDebugResources-47:/layout/item_crypto_card.xml",
+        "source": "zertex.kryptoapp-main-50:/layout/item_crypto_card.xml"
+    },
+    {
+        "merged": "zertex.kryptoapp-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "zertex.kryptoapp-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "zertex.kryptoapp-mergeDebugResources-47:/layout/fragment_home.xml",
+        "source": "zertex.kryptoapp-main-50:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "zertex.kryptoapp-mergeDebugResources-47:/layout/activity_crypto_detail.xml",
+        "source": "zertex.kryptoapp-main-50:/layout/activity_crypto_detail.xml"
+    },
+    {
+        "merged": "zertex.kryptoapp-mergeDebugResources-47:/layout/fragment_watchlist.xml",
+        "source": "zertex.kryptoapp-main-50:/layout/fragment_watchlist.xml"
+    }
+]
